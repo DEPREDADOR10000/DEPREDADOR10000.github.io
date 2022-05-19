@@ -1,0 +1,63 @@
+.cuadrado{
+    position: relative;
+}
+.caja{
+    height: 180px;
+    width: 180px;
+    background-color: rgb(226, 43, 226);
+    color: blue;
+    text-align: center;
+    line-height: 180px;
+    margin: 15PX; 
+    /* separa los bordes      */
+    float: left;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.cuadrado1{
+    background-color: crimson;
+    transition-property: background-color;
+    transition-duration: 1s ;
+    transition-delay: linear;
+}
+.cuadrado1:hover{
+    background-color: chartreuse;
+}
+.cuadrado2{
+    background-color: cornflowerblue;
+    transition-property: font-size;
+    transition-duration: 5s;
+    transition-delay: ease;
+}
+.cuadrado2:hover{
+    font-size: 24px;
+}
+.cuadrado3{
+    background-color: gold;
+    transition-property: color;
+    transition-duration: 3s;
+    transition-delay: ease-in;
+    /* normal-normal-lento */
+}
+.cuadrado3:hover{
+    color: blue;
+}
+.cuadrado4{
+    background-color: cadetblue;
+    transition-property: line-height;
+    transition-duration: 3s;
+    transition-delay: ease-out;
+    /* normal-normal-lento */
+}
+.cuadrado4:hover{
+    line-height: 250px;
+}
+.cuadrado5{
+    background-color: darkgreen;
+    transition: border-radious 5s ease-in-out;
+    
+}
+.cuadrado5:hover{
+    border-radius: 20px;
+}
